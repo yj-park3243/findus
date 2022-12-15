@@ -1,0 +1,169 @@
+name: findus
+description: findus project.
+
+version: 1.1.1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite:
+  path:
+
+  cupertino_icons: ^1.0.2
+
+  google_maps_flutter: ^2.2.1
+  awesome_drawer_bar: 1.0.0
+  flutter_svg: ^1.1.1+1
+  get: ^4.1.4
+  get_storage: ^2.0.2
+  encrypt: ^5.0.0
+  image_picker: ^0.8.3+3
+  get_it: ^7.2.0
+  #app_settings: ^4.1.8
+  permission_handler: ^10.0.0
+  email_validator: ^2.0.1
+  settings_ui: ^1.0.0
+  open_file: ^3.2.1
+  smooth_page_indicator: ^1.0.0+2
+  logger: ^1.1.0
+  dart_jsonwebtoken: ^2.3.0
+  modal_bottom_sheet: ^2.1.0
+  flutter_inappwebview: ^5.7.1
+  # 위치 확인
+  geolocator: ^9.0.1
+  package_info_plus: ^1.4.2
+  latlong2: ^0.8.1 # 거리계산
+  #  env
+  flutter_dotenv: ^5.0.2
+  #  api
+  dio: ^4.0.6
+  http: ^0.13.4
+  flutter_image_slideshow: ^0.1.4
+
+  path_provider: ^2.0.2
+  flutter_localizations:
+    sdk: flutter
+
+  # 토스트
+  flash: ^2.0.0
+
+  # 파이어베이스
+  firebase_core: ^1.20.0
+  firebase_auth: ^3.6.1
+  firebase_analytics: ^9.3.3
+  firebase_messaging: ^11.4.4
+
+  # facebook
+  flutter_login_facebook: 1.6.0
+  # facebook login button
+  flutter_signin_button: ^2.0.0
+  # 앱열때 에니매이션
+  flutter_native_splash: ^2.2.9
+  # 네비게이션 스킨
+  animated_bottom_navigation_bar: 1.0.1
+
+  rxdart: ^0.26.0
+  auto_size_text: ^3.0.0-nullsafety.0
+  circular_reveal_animation: ^2.0.0
+  flog: ^0.2.1
+  #icon
+  eva_icons_flutter: ^3.1.0
+
+  # 시간 표시 oo 시간 전
+  jiffy: 5.0.0
+  validators: ^3.0.0
+  intl: ^0.17.0
+
+  #프로그레스
+  flutter_spinkit: ^5.1.0
+  shimmer: ^2.0.0
+
+  like_button: ^2.0.5
+
+  store_redirect: ^2.0.0
+  dropdown_button2: ^1.8.9
+  fluttertoast: ^8.1.1
+  kpostal: ^0.5.1 # 전화 연결
+#  flutter_sms: ^2.3.3 # 문자
+  mask_text_input_formatter: ^2.4.0
+  flutter_selector: ^0.0.4
+  flutter_phone_direct_caller: ^2.1.1 # 전화 연결
+  google_mobile_ads: ^2.2.0 # 구글 광고
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+    - assets/find_us_images/
+    - assets/find_us_images/category/
+    - assets/find_us_images/common/
+    - assets/find_us_images/map/
+    - .env.dev
+    - .env.local
+    - pubspec.yaml
+
+  fonts:
+    - family: NanumSquare R
+      fonts:
+        - asset: assets/fonts/NanumSquareRegular.ttf
+    - family: NanumSquare B
+      fonts:
+        - asset: assets/fonts/NanumSquareBold.ttf
+    - family: NanumSquare E
+      fonts:
+        - asset: assets/fonts/NanumSquareExtraBold.ttf
+    - family: NanumBarunGothic
+      fonts:
+        - asset: assets/fonts/NanumBarunGothic.ttf
+    - family: NanumBarunGothic L
+      fonts:
+        - asset: assets/fonts/NanumBarunGothicLight.ttf
+    - family: SF-Pro-Heavy
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Heavy.otf
+    - family: SF-Pro-Regular
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Regular.otf
+    - family: SF-Pro-Bold
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Bold.otf
+    - family: SF-Pro-Light
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Light.otf
+    - family: SF-Pro-Semibold
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Semibold.otf
+    - family: SF-Pro-Thin
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Thin.otf
+    - family: SF-Pro-Ultralight
+      fonts:
+        - asset: assets/fonts/Find_Us/SF-Pro-Text-Ultralight.otf
+
+
+
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/images/flutter-icons/fonts/MyFlutterApp.ttf
+
+

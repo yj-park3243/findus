@@ -1,0 +1,23 @@
+{
+  "name": "masterbank-support-comman",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Yongju",
+    "email": "dydwn3243@gmail.com"
+  },
+  "scripts": {
+    "run-prod": "flutter run -t lib/main_prod.dart",
+    "run-dev": "flutter run -t lib/main_dev.dart",
+
+    "build-apk-dev": "flutter build apk --debug lib/main_dev.dart",
+    "build-apk-prod": "flutter build apk --release lib/main_prod.dart",
+    "build-aab-prod": "flutter build appbundle --release lib/main_prod.dart",
+
+    "build-ios-dev": "flutter build ios --release lib/main_dev.dart",
+    "build-ios-prod": "flutter build ios --release lib/main_prod.dart",
+
+    "start" : "flutter build ipa --release lib/main_dev.dart && today=`date '+%Y_%m_%d__%H_%M'` && mkdir ~/Library/Developer/Xcode/Archives/$today-dev && mv build/ios/archive/Runner.xcarchive ~/Library/Developer/Xcode/Archives/$today-dev/Runner.xcarchive && open ios/Runner.xcworkspace/",
+    "testflight-prod" : "flutter build ipa --release lib/main_prod.dart && today=`date '+%Y_%m_%d__%H_%M'` && mkdir ~/Library/Developer/Xcode/Archives/$today-prod && mv build/ios/archive/Runner.xcarchive ~/Library/Developer/Xcode/Archives/$today-prod/Runner.xcarchive && open ios/Runner.xcworkspace/"
+  }
+}

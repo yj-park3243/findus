@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "989169315517",
+    "project_id": "find-us-89494",
+    "storage_bucket": "find-us-89494.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989169315517:android:ec88d705a3fabc139cd1d4",
+        "android_client_info": {
+          "package_name": "com.find_us.find_us_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989169315517-tir9m4r3bots1ncpof2d4eru8r245frb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZlRFFxoU9LrJlwJToZdsV_hJg_KxmrMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989169315517-tir9m4r3bots1ncpof2d4eru8r245frb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "989169315517-h9mqam03bd3t5qfrqj3g1gfhntsjc58v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.findus",
+                "app_store_id": "1643510938"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989169315517:android:d7263e66a46336c19cd1d4",
+        "android_client_info": {
+          "package_name": "com.findus.findus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989169315517-tir9m4r3bots1ncpof2d4eru8r245frb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZlRFFxoU9LrJlwJToZdsV_hJg_KxmrMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989169315517-tir9m4r3bots1ncpof2d4eru8r245frb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "989169315517-h9mqam03bd3t5qfrqj3g1gfhntsjc58v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.findus",
+                "app_store_id": "1643510938"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

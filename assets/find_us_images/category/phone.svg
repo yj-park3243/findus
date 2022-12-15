@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.128" height="14.003" viewBox="0 0 9.128 14.003">
+  <g id="그룹_11291" data-name="그룹 11291" transform="translate(-696.757 -261.689)">
+    <path id="사각형_82" data-name="사각형 82" d="M1.366-.75h4.9A2.118,2.118,0,0,1,8.378,1.366v9.772a2.118,2.118,0,0,1-2.116,2.116h-4.9A2.118,2.118,0,0,1-.75,11.138V1.366A2.118,2.118,0,0,1,1.366-.75Zm4.9,13.027A1.14,1.14,0,0,0,7.4,11.138V1.366A1.14,1.14,0,0,0,6.262.226h-4.9A1.14,1.14,0,0,0,.226,1.366v9.772a1.14,1.14,0,0,0,1.139,1.139Z" transform="translate(697.507 262.439)" fill="#222"/>
+    <path id="선_82" data-name="선 82" d="M8.151.226H0V-.75H8.151Z" transform="translate(697.245 273.181)" fill="#222"/>
+    <path id="선_83" data-name="선 83" d="M8.151.226H0V-.75H8.151Z" transform="translate(697.245 264.725)" fill="#222"/>
+    <g id="그룹_11290" data-name="그룹 11290" transform="translate(699.79 262.999)">
+      <circle id="타원_42" data-name="타원 42" cx="0.325" cy="0.325" r="0.325" transform="translate(0 0)" fill="#222"/>
+      <rect id="사각형_83" data-name="사각형 83" width="2.099" height="0.651" rx="0.325" transform="translate(0.963 0)" fill="#222"/>
+    </g>
+  </g>
+</svg>
